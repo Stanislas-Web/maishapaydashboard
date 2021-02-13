@@ -12,55 +12,67 @@ import TooltipComponent from '../views/ui-components/tooltip.jsx';
 var ThemeRoutes = [
   { 
     path: '/dashboard', 
-    name: 'Dashboard', 
-    icon: 'ti-loop', 
+    name: 'Accueil', 
+    icon: 'mdi mdi-home', 
     component: Starter 
   },
   {
     path: '/alert',
-    name: 'Alerts',
-    icon: 'mdi mdi-comment-processing-outline',
+    name: 'Activez votre compte',
+    icon: 'mdi mdi-account-edit',
     component: Alerts
   },
   {
     path: '/badge',
-    name: 'Badges',
-    icon: 'mdi mdi-arrange-send-backward',
+    name: 'Paiements',
+    icon: 'mdi mdi-cash-multiple',
     component: Badges
   },
   {
     path: '/button',
-    name: 'Buttons',
-    icon: 'mdi mdi-toggle-switch',
+    name: 'Solde',
+    icon: 'mdi mdi-cash-usd',
     component: Buttons
   },
   {
     path: '/card',
-    name: 'Cards',
-    icon: 'mdi mdi-credit-card-multiple',
+    name: 'Clients',
+    icon: 'mdi mdi-account-circle',
     component: Cards
   },
   {
     path: '/grid',
-    name: 'Grid',
-    icon: 'mdi mdi-apps',
+    name: 'Comptes connectés',
+    icon: 'mdi mdi-account-switch',
     component: LayoutComponent
   },
   {
     path: '/pagination',
-    name: 'Pagination',
-    icon: 'mdi mdi-priority-high',
+    name: 'Produits',
+    icon: 'mdi mdi-package-variant',
     component: PaginationComponent
   },
   {
+    path: '/pagination',
+    name: 'Rapports',
+    icon: 'mdi mdi-chart-areaspline',
+    component: PaginationComponent
+  },
+  {
+    path: '/pop',
+    name: 'Developpeurs',
+    icon: 'mdi mdi-xml',
+    component: TooltipComponent
+  },
+  {
     path: '/popover',
-    name: 'Popover',
+    name: 'Mode test',
     icon: 'mdi mdi-pencil-circle',
     component: PopoverComponent
   },
   {
     path: '/ui-components/tooltip',
-    name: 'Toltips',
+    name: 'Paramètres',
     icon: 'mdi mdi-image-filter-vintage',
     component: TooltipComponent
   },

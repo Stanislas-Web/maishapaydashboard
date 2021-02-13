@@ -11,7 +11,8 @@ import {
     CardTitle,
     CardSubtitle,
     Input,
-    Table
+    Table,
+    Button
 } from 'reactstrap';
 
 const Projects = () => {
@@ -19,8 +20,8 @@ const Projects = () => {
         /*--------------------------------------------------------------------------------*/
         /* Used In Dashboard-4 [General]                                                  */
         /*--------------------------------------------------------------------------------*/
-
         <Card>
+
             <CardBody>
                 <div className="d-flex align-items-center">
                     <div>

@@ -10,7 +10,7 @@ import {
     Row,
     Col
 } from 'reactstrap';
-import { SalesSummary, Projects, Feeds } from 'components/dashboard-components';
+import { SalesSummary, Projects, Feeds, ApercuBrut, ApercuConnectBrut, ApercuVolumeVente } from 'components/dashboard-components';
 
 import img1 from '../../assets/images/big/img1.jpg';
 import img2 from '../../assets/images/big/img2.jpg';
@@ -28,16 +28,35 @@ const Starter = () => {
                 </Col>
             </Row>
             <Row>
+                     <h3 style={{marginBottom: "20px", marginLeft: "20px"}}>
+                                Aperçu des Rapports
+                                </h3>
+            </Row>
+            <Row>
+                <Col lg={4}>
+                    <ApercuBrut/>
+                </Col>
+                <Col  md={2} lg={4}>
+                    <ApercuConnectBrut/>
+                </Col>
+                <Col md={2} lg={4}>
+                    <ApercuVolumeVente/>
+                </Col>
+                {/* <Col sm={6} lg={4}>
+                    <Feeds />
+                </Col> */}
+            </Row>
+            {/* <Row>
                 <Col sm={12}>
                     <Projects />
                 </Col>
-            </Row>
-            <Row>
-                <Col xs="12" md="4">
+            </Row> */}
+            {/* <Row>
+                <Col xs="12" md="4"> */}
                     {/*--------------------------------------------------------------------------------*/}
                     {/*Card-1*/}
                     {/*--------------------------------------------------------------------------------*/}
-                    <Card>
+                    {/* <Card>
                         <CardImg top width="100%" src={img1} />
                         <CardBody>
                             <CardTitle>Card title</CardTitle>
@@ -47,11 +66,11 @@ const Starter = () => {
                         </CardBody>
                     </Card>
                 </Col>
-                <Col xs="12" md="4">
+                <Col xs="12" md="4"> */}
                     {/*--------------------------------------------------------------------------------*/}
                     {/*Card-1*/}
                     {/*--------------------------------------------------------------------------------*/}
-                    <Card>
+                    {/* <Card>
                         <CardImg top width="100%" src={img2} />
                         <CardBody>
                             <CardTitle>Card title</CardTitle>
@@ -61,11 +80,11 @@ const Starter = () => {
                         </CardBody>
                     </Card>
                 </Col>
-                <Col xs="12" md="4">
+                <Col xs="12" md="4"> */}
                     {/*--------------------------------------------------------------------------------*/}
                     {/*Card-1*/}
                     {/*--------------------------------------------------------------------------------*/}
-                    <Card>
+                    {/* <Card>
                         <CardImg top width="100%" src={img3} />
                         <CardBody>
                             <CardTitle>Card title</CardTitle>
@@ -75,7 +94,7 @@ const Starter = () => {
                         </CardBody>
                     </Card>
                 </Col>
-            </Row>
+            </Row> */}
         </div>
     );
 }

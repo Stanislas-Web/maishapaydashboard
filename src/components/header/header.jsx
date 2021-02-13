@@ -63,12 +63,12 @@ const Header = () => {
                         <UncontrolledDropdown nav inNavbar>
                             <DropdownToggle nav caret className="pro-pic">
                                 <img
-                                    src={profilephoto}
+                                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSf-bxehVX-nX3O1ZzbqioDB1rRJhnP9O-U0A&usqp=CAU"
                                     alt="user"
                                     className="rounded-circle"
                                     width="31"
                                 />
-                                 <span style={{color: "black", marginLeft:"10px"}}>Landry Ngoya</span> 
+                                 <span style={{color: "black", marginLeft:"10px"}}>Tom MALOMBA</span> 
                             </DropdownToggle>
                             <DropdownMenu right className="user-dd">
                                 <DropdownItem>
