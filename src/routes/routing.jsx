@@ -1,3 +1,4 @@
+import Paiement from '../views/paiment/paiment.jsx';
 import Starter from '../views/starter/starter.jsx';
 // ui components
 import Alerts from '../views/ui-components/alert.jsx';
@@ -17,61 +18,61 @@ var ThemeRoutes = [
     component: Starter 
   },
   {
-    path: '/alert',
+    path: '/activezcompte',
     name: 'Activez votre compte',
     icon: 'mdi mdi-account-edit',
     component: Alerts
   },
   {
-    path: '/badge',
+    path: '/paiment',
     name: 'Paiements',
     icon: 'mdi mdi-cash-multiple',
-    component: Badges
+    component: Paiement
   },
   {
-    path: '/button',
+    path: '/solde',
     name: 'Solde',
     icon: 'mdi mdi-cash-usd',
     component: Buttons
   },
   {
-    path: '/card',
+    path: '/client',
     name: 'Clients',
     icon: 'mdi mdi-account-circle',
     component: Cards
   },
   {
-    path: '/grid',
+    path: '/compteconnecte',
     name: 'Comptes connectés',
     icon: 'mdi mdi-account-switch',
     component: LayoutComponent
   },
   {
-    path: '/pagination',
+    path: '/produit',
     name: 'Produits',
     icon: 'mdi mdi-package-variant',
     component: PaginationComponent
   },
   {
-    path: '/pagination',
+    path: '/rapport',
     name: 'Rapports',
     icon: 'mdi mdi-chart-areaspline',
     component: PaginationComponent
   },
   {
-    path: '/pop',
+    path: '/dev',
     name: 'Developpeurs',
     icon: 'mdi mdi-xml',
     component: TooltipComponent
   },
   {
-    path: '/popover',
+    path: '/test/dashboard',
     name: 'Mode test',
     icon: 'mdi mdi-pencil-circle',
-    component: PopoverComponent
+    component: Starter
   },
   {
-    path: '/ui-components/tooltip',
+    path: '/parametre',
     name: 'Paramètres',
     icon: 'mdi mdi-image-filter-vintage',
     component: TooltipComponent
