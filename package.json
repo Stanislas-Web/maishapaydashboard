@@ -2,7 +2,7 @@
     "name": "xtreme-react-admin",
     "version": "0.1.0",
     "private": true,
-    "homepage": "/maishapay",
+
     "dependencies": {
         "bootstrap": "^4.6.0",
         "chart.js": "2.7.2",
