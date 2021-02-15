@@ -4,7 +4,7 @@ import Header from '../components/header/header.jsx';
 import Sidebar from '../components/sidebar/sidebar.jsx';
 import Footer from '../components/footer/footer.jsx';
 import ThemeRoutes from '../routes/routing.jsx';
-
+import SignIn from '../components/sign_in/pages/sign_in';
 const Fulllayout = (props) => {
     /*--------------------------------------------------------------------------------*/
     /*Change the layout settings [HEADER,SIDEBAR && DARK LAYOUT] from here            */
@@ -49,6 +49,8 @@ const Fulllayout = (props) => {
             window.removeEventListener("resize", updateDimensions.bind(this));
         };
     }, [width]);
+
+
 
     /*--------------------------------------------------------------------------------*/
     /* Theme Setting && Layout Options wiil be Change From Here                       */
