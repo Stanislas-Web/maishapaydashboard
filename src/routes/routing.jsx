@@ -33,37 +33,43 @@ var ThemeRoutes = [
     path: '/solde',
     name: 'Solde',
     icon: 'mdi mdi-cash-usd',
-    component: Buttons
+    // component: Buttons
+    component: Alerts
   },
   {
     path: '/client',
     name: 'Clients',
     icon: 'mdi mdi-account-circle',
-    component: Cards
+    // component: Cards
+    component: Alerts
   },
   {
     path: '/compteconnecte',
     name: 'Comptes connectés',
     icon: 'mdi mdi-account-switch',
-    component: LayoutComponent
+    // component: LayoutComponent
+    component: Alerts
   },
   {
     path: '/produit',
     name: 'Produits',
     icon: 'mdi mdi-package-variant',
-    component: PaginationComponent
+    // component: PaginationComponent
+    component:Alerts
   },
   {
     path: '/rapport',
     name: 'Rapports',
     icon: 'mdi mdi-chart-areaspline',
-    component: PaginationComponent
+    // component: PaginationComponent
+    component:Alerts
   },
   {
     path: '/dev',
     name: 'Developpeurs',
     icon: 'mdi mdi-xml',
-    component: TooltipComponent
+    // component: TooltipComponent
+    component:Alerts
   },
   {
     path: '/test/dashboard',
@@ -75,7 +81,8 @@ var ThemeRoutes = [
     path: '/parametre',
     name: 'Paramètres',
     icon: 'mdi mdi-image-filter-vintage',
-    component: TooltipComponent
+    // component: TooltipComponent
+    component: Alerts
   },
   { path: '/', pathTo: '/dashboard', name: 'Dashboard', redirect: true }
 ];

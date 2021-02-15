@@ -26,18 +26,20 @@ const Alerts = () => {
             {/* --------------------------------------------------------------------------------*/}
             <Card>
                 <CardTitle className="bg-light border-bottom p-3 mb-0">
-                    <i className="mdi mdi-comment-processing-outline mr-2"> </i>
-            Alert
+                 
           </CardTitle>
                 <CardBody className="">
                     <div className="mt-3">
-                        <Alert color="primary">
+                    <h3 style={{marginBottom: "20px"}}>
+                                    Le module est en Développement
+                    </h3>
+                        {/* <Alert color="primary">
                             This is a primary alert— check it out!
               </Alert>
                         <Alert color="secondary">
                             This is a secondary alert— check it out!
-              </Alert>
-                        <Alert color="success">
+              </Alert> */}
+                        {/* <Alert color="success">
                             This is a success alert— check it out!
               </Alert>
                         <Alert color="danger">
@@ -48,14 +50,14 @@ const Alerts = () => {
               </Alert>
                         <Alert color="info">This is a info alert— check it out!</Alert>
                         <Alert color="light">This is a light alert— check it out!</Alert>
-                        <Alert color="dark">This is a dark alert</Alert>
+                        <Alert color="dark">This is a dark alert</Alert> */}
                     </div>
                 </CardBody>
             </Card>
             {/* --------------------------------------------------------------------------------*/}
             {/* Card-2*/}
             {/* --------------------------------------------------------------------------------*/}
-            <Card>
+            {/* <Card>
                 <CardTitle className="bg-light border-bottom p-3 mb-0">
                     <i className="mdi mdi-comment-processing-outline mr-2" />
             Alert with Links
@@ -124,7 +126,7 @@ const Alerts = () => {
             {/* --------------------------------------------------------------------------------*/}
             {/* Card-3*/}
             {/* --------------------------------------------------------------------------------*/}
-            <Card>
+            {/* <Card>
                 <CardTitle className="bg-light border-bottom p-3 mb-0">
                     <i className="mdi mdi-comment-processing-outline mr-2" />
             Alert with Additional content
@@ -147,11 +149,11 @@ const Alerts = () => {
                         </Alert>
                     </div>
                 </CardBody>
-            </Card>
+            </Card> */}
             {/* --------------------------------------------------------------------------------*/}
             {/* Card-4*/}
             {/* --------------------------------------------------------------------------------*/}
-            <Card>
+            {/* <Card>
                 <CardTitle className="bg-light border-bottom p-3 mb-0">
                     <i className="mdi mdi-comment-processing-outline mr-2" />
             Alert with Dissmissing
@@ -167,11 +169,11 @@ const Alerts = () => {
               </Alert>
                     </div>
                 </CardBody>
-            </Card>
+            </Card> */}
             {/* --------------------------------------------------------------------------------*/}
             {/* Card-5*/}
             {/* --------------------------------------------------------------------------------*/}
-            <Card>
+            {/* <Card>
                 <CardTitle className="bg-light border-bottom p-3 mb-0">
                     <i className="mdi mdi-comment-processing-outline mr-2" />
             Alert with Uncontrolled [disable] Alerts
@@ -183,11 +185,11 @@ const Alerts = () => {
               </UncontrolledAlert>
                     </div>
                 </CardBody>
-            </Card>
+            </Card> */}
             {/* --------------------------------------------------------------------------------*/}
             {/* Card-6*/}
             {/* --------------------------------------------------------------------------------*/}
-            <Card>
+            {/* <Card>
                 <CardTitle className="bg-light border-bottom p-3 mb-0">
                     <i className="mdi mdi-comment-processing-outline mr-2" />
             Alerts without fade
@@ -207,7 +209,7 @@ const Alerts = () => {
               </UncontrolledAlert>
                     </div>
                 </CardBody>
-            </Card>
+            </Card>  */}
 
             {/* --------------------------------------------------------------------------------*/}
             {/* End Inner Div*/}
